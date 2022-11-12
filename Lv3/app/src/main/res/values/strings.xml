@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Android studio application</string>
+    <string name="ime">Ime</string>
+    <string name="datum_rodjenja">Datum rođenja</string>
+    <string name="prezime">Prezime</string>
+    <string name="gumb_Dalje">Dalje</string>
+    <string name="predmet">Predmet</string>
+    <string name="profesor">Profesor</string>
+    <string name="godina">Godina</string>
+    <string name="predavanja">Predavanja</string>
+    <string name="vjezbe">Vjezbe</string>
+    <string name="register">Register</string>
+    <string name="broj_sati_vjezbe">Unesite broj sati vježbi</string>
+    <string name="unesite_ime_profesora">Unesite ime profesora</string>
+    <string name="unesite_predmet">Unesite predmet</string>
+    <string name="unesite_akademsku_godinu">Unesite akademsku godinu</string>
+    <string name="unesite_broj_sati_predavanja">Unesite broj sati predavanja</string>
+    <string name="new_student">Dodaj novog studenta</string>
+    <string name="studenti">Studenti</string>
+
+
+    <string-array name="SpinnerData">
+        <item>Odaberite jezik</item>
+        <item>Engleski</item>
+        <item>Hrvatski</item>
+        <item>Mađarski</item>
+    </string-array>
+
+</resources>
