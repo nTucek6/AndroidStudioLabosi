@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.AdapterView;
@@ -81,16 +82,19 @@ public class MainActivity extends AppCompatActivity {
         newStudentBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,PersonalInfoActivity.class));
+                startActivity(new Intent(MainActivity.this,PersonalInfoActivity.class).
+                        putParcelableArrayListExtra("listaStudent", (ArrayList<? extends Parcelable>) studentList));
             }
         });
 
         Intent i = getIntent();
 
+        if(i.hasExtra("listaStudent"))
+        {
+            studentList = i.getParcelableArrayListExtra("listaStudent");
+        }
         if(i.hasExtra("Student") && i.hasExtra("Subject"))
         {
-           // studentList = new ArrayList<>(i.getParcelableExtra("Student"));
-            //subjectList = new ArrayList<>(i.getParcelableExtra("Student"));
             studentList.add(i.getParcelableExtra("Student"));
             subjectList.add(i.getParcelableExtra("Subject"));
         }

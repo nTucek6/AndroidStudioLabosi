@@ -4,9 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SummaryActivity extends AppCompatActivity {
 
@@ -39,6 +43,8 @@ public class SummaryActivity extends AppCompatActivity {
         Student student =  intent.getParcelableExtra("Student");
         Subject subject =  intent.getParcelableExtra("Subject");
 
+        List<Student> studentList = intent.getParcelableArrayListExtra("listaStudent");
+
         String ImeValue = student.getName();
         String PrezimeValue = student.getSurname();
         String DatumValue = student.getBirthDate();
@@ -65,7 +71,9 @@ public class SummaryActivity extends AppCompatActivity {
 
                 startActivity(new Intent(SummaryActivity.this, MainActivity.class).
                         putExtra("Student",student).
-                        putExtra("Subject",subject));
+                        putExtra("Subject",subject).
+                        putParcelableArrayListExtra("listaStudent", (ArrayList<? extends Parcelable>) studentList)
+                );
                 finish();
             }
         });

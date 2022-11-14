@@ -10,6 +10,8 @@ public class Student implements Parcelable {
     String BirthDate;
     int SubjectId;
 
+    public Student(){}
+
     public Student(String name, String surname, String birthDate,int subjectId) {
         Name = name;
         Surname = surname;

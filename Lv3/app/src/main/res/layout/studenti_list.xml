@@ -11,80 +11,104 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:id="@+id/LinearIP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             >
 
-
-            <TextView
-                android:id="@+id/tvImeL"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/ime"
-                android:layout_weight="0.5"
-                android:gravity="center"
+            <ImageView
+                android:id="@+id/personImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/user"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 />
 
-            <TextView
-                android:id="@+id/tvIme"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ime"
-                android:layout_weight="1"
-                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/tvPrezimeL"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/prezime"
-                android:layout_weight="0.5"
-                android:gravity="center"
-                />
+                <LinearLayout
+                    android:id="@+id/LinearIP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:id="@+id/tvImeL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ime"
+                        android:layout_marginLeft="50dp"
+                        />
 
-            <TextView
-                android:id="@+id/tvPrezime"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Prezime"
-                android:layout_weight="1"
+                    <TextView
+                        android:id="@+id/tvIme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ime"
+                        android:layout_marginLeft="2dp"
 
-                />
+                        />
+
+                    <TextView
+                        android:id="@+id/tvPrezimeL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prezime"
+                        android:layout_marginLeft="50dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvPrezime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prezime"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tvPredmetL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/predmet"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvPredmet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Predmet"
+                       android:layout_marginLeft="2dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/LinearIP"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:gravity="center"
-            >
-
-            <TextView
-                android:id="@+id/tvPredmetL"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/predmet"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                />
-
-            <TextView
-                android:id="@+id/tvPredmet"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Predmet"
-                android:gravity="center"
-
-                android:layout_marginTop="5dp"
-                />
 
 
-        </LinearLayout>
+
+
+
+
 
 
 
