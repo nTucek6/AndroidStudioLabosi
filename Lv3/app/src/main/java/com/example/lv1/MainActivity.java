@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     Locale locale;
     String currentLanguage = "en", currentLang;
     Button newStudentBtn;
+    TextView StudentText;
 
     @Override
     public void onBackPressed()
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         newStudentBtn = findViewById(R.id.AddNewStudentBtn);
+        StudentText = findViewById(R.id.tvHeader);
         newStudentBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -91,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(i.hasExtra("listaStudent"))
         {
+            StudentText.setText(getString(R.string.studenti));
             studentList = i.getParcelableArrayListExtra("listaStudent");
         }
         if(i.hasExtra("Student") && i.hasExtra("Subject"))
@@ -98,8 +102,6 @@ public class MainActivity extends AppCompatActivity {
             studentList.add(i.getParcelableExtra("Student"));
             subjectList.add(i.getParcelableExtra("Subject"));
         }
-
-
         if(!studentList.isEmpty())
         {
             recyclerView = findViewById(R.id.recyclerView);
@@ -109,9 +111,6 @@ public class MainActivity extends AppCompatActivity {
             adapter = new StudentAdapter(studentList,subjectList);
             recyclerView.setAdapter(adapter);
         }
-
-
-
     }
     private void setLocale(String localeName) {
         if (!localeName.equals(currentLanguage)) {
