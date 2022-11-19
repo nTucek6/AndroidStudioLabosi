@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SpinnerData">
+        <item>Odaberite jezik</item>
+        <item>Engleski</item>
+        <item>Hrvatski</item>
+        <item>Mađarski</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="blue">#57b1c2</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="EmptyField">Niste unijeli sva polja!</string>
+    <string name="ExitDialog">Jeste li sigurni da želite izaći?</string>
+    <string name="TakePhotoView">Uslikaj</string>
+    <string name="app_name">Android studio LV4</string>
+    <string name="broj_sati_vjezbe">Unesite broj sati vježbi</string>
+    <string name="datum_rodjenja">Datum rođenja</string>
+    <string name="godina">Godina</string>
+    <string name="gumb_Dalje">Dalje</string>
+    <string name="ime">Ime</string>
+    <string name="new_student">Dodaj novog studenta</string>
+    <string name="no">Ne</string>
+    <string name="personalInfoTab">Osobni podaci</string>
+    <string name="predavanja">Predavanja</string>
+    <string name="predmet">Predmet</string>
+    <string name="prezime">Prezime</string>
+    <string name="profesor">Profesor</string>
+    <string name="register">Register</string>
+    <string name="studentInfoTab">Podaci o studentu</string>
+    <string name="studenti">Studenti</string>
+    <string name="summaryTab">Sažetak</string>
+    <string name="unesite_akademsku_godinu">Unesite akademsku godinu</string>
+    <string name="unesite_broj_sati_predavanja">Unesite broj sati predavanja</string>
+    <string name="unesite_ime_profesora">Unesite ime profesora</string>
+    <string name="unesite_predmet">Unesite predmet</string>
+    <string name="uploadPhotoBtn">Učitaj sliku</string>
+    <string name="vjezbe">Vjezbe</string>
+    <string name="yes">Da</string>
+    <style name="Theme.LV4" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+</resources>
