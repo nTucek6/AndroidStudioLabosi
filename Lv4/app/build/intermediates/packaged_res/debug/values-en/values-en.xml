@@ -9,6 +9,7 @@
     <string name="EmptyField">You have not entered all the fields!</string>
     <string name="ExitDialog">Are you sure you want to exit?</string>
     <string name="TakePhotoView">Take photo</string>
+    <string name="TakePicture">Take image</string>
     <string name="app_name">Android studio LV4</string>
     <string name="broj_sati_vjezbe">Enter the number of hours of practice</string>
     <string name="datum_rodjenja">Birth date</string>

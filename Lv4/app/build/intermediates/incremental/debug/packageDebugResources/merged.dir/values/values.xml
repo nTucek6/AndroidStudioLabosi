@@ -17,6 +17,7 @@
     <string name="EmptyField">Niste unijeli sva polja!</string>
     <string name="ExitDialog">Jeste li sigurni da želite izaći?</string>
     <string name="TakePhotoView">Uslikaj</string>
+    <string name="TakePicture">USLIKAJ</string>
     <string name="app_name">Android studio LV4</string>
     <string name="broj_sati_vjezbe">Unesite broj sati vježbi</string>
     <string name="datum_rodjenja">Datum rođenja</string>

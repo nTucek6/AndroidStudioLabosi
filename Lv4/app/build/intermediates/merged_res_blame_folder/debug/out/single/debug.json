@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Nikola\\.gradle\\daemon\\7.4\\com.example.lv4.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.lv4.app-merged_res-32:/layout_activity_camera.xml.flat",
+        "source": "com.example.lv4.app-main-34:/layout/activity_camera.xml"
+    },
+    {
         "merged": "C:\\Users\\Nikola\\.gradle\\daemon\\7.4\\com.example.lv4.app-merged_res-32:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Nikola\\.gradle\\daemon\\7.4\\com.example.lv4.app-main-34:\\layout\\activity_main.xml"
     },
@@ -50,10 +54,6 @@
     {
         "merged": "C:\\Users\\Nikola\\.gradle\\daemon\\7.4\\com.example.lv4.app-merged_res-32:\\drawable-v24_user.png.flat",
         "source": "C:\\Users\\Nikola\\.gradle\\daemon\\7.4\\com.example.lv4.app-main-34:\\drawable-v24\\user.png"
-    },
-    {
-        "merged": "com.example.lv4.app-merged_res-32:/layout_fragment_personal_info.xml.flat",
-        "source": "com.example.lv4.app-main-34:/layout/fragment_personal_info.xml"
     },
     {
         "merged": "C:\\Users\\Nikola\\.gradle\\daemon\\7.4\\com.example.lv4.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",

@@ -9,6 +9,7 @@
     <string name="EmptyField">Nem töltöttél ki minden mezőt!</string>
     <string name="ExitDialog">Biztos ki akarsz lépni?</string>
     <string name="TakePhotoView">Fotót készíteni</string>
+    <string name="TakePicture">KÉSZÍTS FOTÓT</string>
     <string name="app_name">Android studio LV4</string>
     <string name="broj_sati_vjezbe">Adja meg a gyakorlati órák számát</string>
     <string name="datum_rodjenja">Születési dátum</string>

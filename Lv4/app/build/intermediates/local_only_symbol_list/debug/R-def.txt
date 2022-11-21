@@ -73,6 +73,7 @@ mipmap ic_launcher_round
 string EmptyField
 string ExitDialog
 string TakePhotoView
+string TakePicture
 string app_name
 string broj_sati_vjezbe
 string datum_rodjenja

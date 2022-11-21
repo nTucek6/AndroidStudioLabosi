@@ -3386,6 +3386,7 @@ int plurals mtrl_badge_content_description 0x7f0f0000
 int string EmptyField 0x7f100000
 int string ExitDialog 0x7f1000a6
 int string TakePhotoView 0x7f1000a1
+int string TakePicture 0x7f1000a9
 int string abc_action_bar_home_description 0x7f100001
 int string abc_action_bar_up_description 0x7f100002
 int string abc_action_menu_overflow_description 0x7f100003

@@ -3387,6 +3387,7 @@ plurals mtrl_badge_content_description
 string EmptyField
 string ExitDialog
 string TakePhotoView
+string TakePicture
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
