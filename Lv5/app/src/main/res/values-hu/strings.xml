@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ExitDialog">Biztos ki akarsz lépni?</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+
+    <string name="app_name">Android studio LV5</string>
+    <string name="ime">Név</string>
+    <string name="datum_rodjenja">Születési dátum</string>
+    <string name="prezime">Vezetéknév</string>
+    <string name="gumb_Dalje">Következő</string>
+    <string name="predmet">Tantárgy</string>
+    <string name="profesor">Egyetemi tanár</string>
+    <string name="godina">Év</string>
+    <string name="predavanja">Előadások</string>
+    <string name="vjezbe">Feladatok</string>
+    <string name="register">Regisztráció</string>
+    <string name="broj_sati_vjezbe">Adja meg a gyakorlati órák számát</string>
+    <string name="unesite_ime_profesora">Írja be a professzorok nevét</string>
+    <string name="unesite_predmet">Írja be a tárgyat</string>
+    <string name="unesite_akademsku_godinu">Lépjen be a tanévbe</string>
+    <string name="unesite_broj_sati_predavanja">Adja meg az órák számát</string>
+    <string name="new_student">Új tanuló hozzáadása</string>
+    <string name="studenti">Hallgatók</string>
+
+    <string-array name="SpinnerData">
+        <item>Válasszon nyelvet</item>
+        <item>Angol</item>
+        <item>Horvát</item>
+        <item>Magyar</item>
+    </string-array>
+
+    <string name="EmptyField">Nem töltöttél ki minden mezőt!</string>
+
+    <string name="TakePhotoView">Fotót készíteni</string>
+    <string name="uploadPhotoBtn">Kép feltöltése</string>
+
+    <string name="personalInfoTab">Személyes adatok</string>
+    <string name="studentInfoTab">Diákinformációk</string>
+    <string name="summaryTab">Összegzés</string>
+
+    <string name="TakePicture">KÉSZÍTS FOTÓT</string>
+
+</resources>
